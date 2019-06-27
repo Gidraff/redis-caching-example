@@ -1,0 +1,10 @@
+---
+password: secretpasswording
+persistence:
+  enabled: false
+master:
+  resources: 
+    Memory: 300Mi
+    CPU: 200m
+  podLabels: 
+    mylabel: my-redis-labelss
